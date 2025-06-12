@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>RG KhmerServers</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  
+  <link href='https://fonts.googleapis.com/css?family=Kenia' rel='stylesheet'>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Roboto&amp;display=swap" rel="stylesheet"/>
+  
+  <link rel="icon" type="image/png" href="https://files.fm/thumb_show.php?i=w74rw5vceg">
+  
+  <link href="https://fonts.cdnfonts.com/css/minecraft-3" rel="stylesheet">
+
+  <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+           
+  <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: url('https://i.ibb.co/V0VY6LbK/b81c1c27b28c8a2b874b4236e6b933a1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      align-item: center;
+      -webkit-tap-highlight-color: transparent;
+    }
+  
+  /*Search Bar*/
+  input.. {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(5px) saturate(50%);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 60px 5px;
+    box-shadow: 0px 0px 15px red;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    height: 90px;
+    width: 260px;
+    color: rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease;
+    box-shadow: 0px 0px 20px #007bff;
+    position: fixed;
+    top: 250px;
+    align-items: center;
+    text-align: absolute;
+    display: flex;
+    z-index: 100;
+  }
+  
+  input:hover{
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(5px) saturate(50%);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px 60px;
+    box-shadow: 0px 0px 5px black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 800px;
+    color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 15px red;
+    text-shadow: 0px 10px 30px #007bff;
+    position: fixed;
+    top: 250px;
+  }
+  
+  /*✅Animate Drop Down Menu*/
+  a {
+    z-index: 100;
+    text-overflow: none;
+    text-decoration-line: none;
+    color: lightblue;
+    transition: all 0.9s ease;
+    user-select: none;
+    width: 100px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  a:active {
+    transform: scale(1.3);
+    color: red;
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 40px 5px;
+    width: 300px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    text-shadow: 5px 5px 0px #007bff;
+  }
+  
+  h2 {
+    font-size: 17px;
+    color: white;
+    text-shadow: 5px 5px 0px blue;
+    font-family: 'Orbitron' , sans-serif;
+    top: 1000px;
+    top: 150px;
+    z-index: 100;
+    text-align: center;
+    font-family: 'Angkor', 'Khmer OS', 'Battambang', sans-serif;
+  }
+  
+  h3 {
+    font-size: 13px;
+    z-index: 100;
+    text-shadow: 5px 5px 0px black;
+    font-family: 'Bokor', 'Khmer OS', 'Battambang', sans-serif;
+  }
+  
+  h1 {
+    z-index: 5000;
+  }
+  
+  p {
+    color: red;
+    font-size: 20px;
+    opacity: 0%;
+    
+  }
+  /*✅Filter background Menu*/
+  .filter {
+      width: 900px;
+      padding: 20px 40px;
+      background: rgba(900, 900, 900, 0.3);
+      border-bottom: 5px solid rgba(555, 555, 555, 0.2);
+      backdrop-filter: blur(5px) saturate(150%);
+      -webkit-backdrop-filter: blur(15px) saturate(150%);
+      color: white;
+      /*✅position: fixed; <== ❌ ដោះចេញនេះ */
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px 40px;
+      font-size: 40px;
+      font-family: 'Audiowide', sans-serif;
+      user-select: none;
+      gap: 500px;
+      position: fixed;
+      botton: px;
+      top: 113px;
+      left: 0px;
+      z-index: 100;
+  }
+  
+     /*✅Header Style*/
+    .glass-header {
+      font-family: 'Kenia';
+      width: 100%;
+      padding: 20px 40px;
+      background: black;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(5px) saturate(150%);
+      -webkit-backdrop-filter: blur(15px) saturate(150%);
+      color: orange;
+      /* position: fixed; <== ❌ ដោះចេញនេះ */
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+      position: fixed;
+      top: 1px;
+      display: flex;
+      font-size: 100px;
+      font-weight: bold;
+      left: -10px;
+    }
+
+    .glass-header h1 {
+      margin: 0;
+      bottom: 100px;
+      font-size: 40px;
+      text-align: center; /* ✅ កែសម្រួលពី text-aligt => text-align */
+    }
+
+    .glass-header nav {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+  
+  /*✅Sign In Animated*/
+  .sign-in {
+    font-size: 60px;
+    color: white;
+    transition: all 0.1s ease;
+    background: none;
+  }
+  
+  .sign-in i:hover {
+    color: red;
+    transform: scale(1.3);
+    text-shadow: 0px 0px 25px #007bff;
+  }
+  
+  /*✅Icons Style*/
+  .icon {
+    font-size: 100px;
+    color: gray;
+    text-overflow: none;
+    text-decoration-line: none;
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    background: none;
+    border: none;
+    trasition: all 5s ease;
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+    z-index: -5;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+    color: black;
+    text-shadow: 0px 10px 20px #007bff;
+  }
+  
+  .img-icon {
+    text-align: center;
+    gap: 5px;
+    top: 2px;
+    bottom: 500px;
+    color: white;
+  }
+  .img-btn {
+    border: 2px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    top: 250px;
+    width: 750px;
+    box-shadow: 0px 0px 30px navy;
+  }
+  
+  .img, animate-img-style {
+    height: 400px;
+    top: 100px;
+    text-align: center;
+    filter: drop-shadow(0 0 12px #00faff);
+    animation: rgbGlow 5s infinite linear;
+
+  }
+  
+  @keyframes rgbGlow {
+  0% {
+    filter: drop-shadow(0 0 10px red);
+  }
+  33% {
+    filter: drop-shadow(0 0 10px lime);
+  }
+  66% {
+    filter: drop-shadow(0 0 10px blue);
+  }
+  100% {
+    filter: drop-shadow(0 0 10px red);
+  }
+}
+
+  
+  /*Position img*/
+  .position {
+    left: 900px;
+    top: 1000px;
+    font-size: 60px;
+    color: white;
+    background: black;
+    border-radius: 5px 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    font-family: 'Minecraft', sans-serif;
+    text-shadow: 5px 5px 0px red;
+  }
+  
+  .position:hover {
+    transform: scale(1.5);
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-size: 85px;
+    text-shadow: 0px 0px 35px black;
+    
+  }
+  
+  .logo {
+    font-family: 'Minecraft';
+    font-size: 120px;
+    color: gray;
+    text-shadow: 16px 16px 0px black;
+  }
+  
+  .logo:active {
+    transform: scale(1.2);
+    text-shadow: 16px 16px 0px gray;
+    color: black;
+  }
+  
+  /*Animated Logo*/
+  .logo img {
+  width: 120px;
+  z-index: -500;
+  animation: spinLogo 6s infinite ease-in-out;
+}
+
+@keyframes spinLogo {
+  0% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.2) rotate(0deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+  .img-animate {
+    height: 550px;
+    width: 850px;
+    text-align: center;
+    z-index: -5;
+    animation: server 0s infinite ease-in-out;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom: 3px solid rgba(255, 255, 256, 0.3);
+    box-shadow: 0px 0px 30px;
+    border-radius: 0px;
+    opacity: 100%;
+    
+  }
+  
+  .animate-img-style {
+    animation: img 10s infinite ease-in-out;
+  }
+  
+  @keyframes img {
+  0% { transform: scale(1) transformX(0px); }
+  50% { transform: scale(1) transformX(50px); }
+  100% { transform: scale(1) transformX(100px); }
+}
+  
+  </style>
+</head>
+<body>
+  
+  <!--Header Style-->
+  <header class="glass-header">
+    <h1 style="font-size: 60px; z-index: 5000; text-align: center;">RG MC KHMER-SERVERS</h1>
+  </header>
+
+  <div class="filter" style="word-spacing: 55px;">
+    <a href="#Channel">Channel</a>
+    <a href="#">Minecraft</a>
+    <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.mediafire.com%2Ffile%2Fhkg0eke9rbpti68%2FMinecraft_1.21.62.01_Official.apk%2Ffile&sa=D&sntz=1&usg=AOvVaw2-lKX3jpsTK0VMcxYfAovz">Download</a>
+  </div>
+        <p>-</p>
+        <p style="font-size: 40px;">-</p>
+  
+  <div class="logo">
+    <img src="https://i.ibb.co/Q7fRKJX5/1000341882-removebg-preview.png" style="height: 500px; width: 600px; z-index: 5500;">
+  </div>
+  
+      <nav style="text-align: center; font-size: 70px; word-spacing: 30px;" id="Server">
+        
+        <button class="img-btn">
+          
+        <img class="img" src="https://i.ibb.co/s9g7hKg1/1000341839-removebg-preview.png" style="height: 385px;">
+        <a class="position" href="minecraft://?addExternalServer=MAZER-CLUB|bedrock.mazerclub.net:25619">|Mazerclub|</a>
+
+        </button>
+        <p>------------------------------</p>
+        <button class="img-btn">
+          
+        <img class="img" src="https://i.ibb.co/Rk6wzF79/Chat-GPT-Image-Jun-9-2025-09-30-37-PM.png" style="height: 410px;">
+        <a class="position" href="minecraft://?addExternalServer=ANGKOR-MC-STAR|AngkorMCstar.aternos.me:20923">|Angkorstar|</a>
+
+        </button>
+        <p>------------------------------</p>
+        <button class="img-btn">
+          
+        <img class="img" src="https://i.ibb.co/sXQMJy7/IMG-20250607-181607-012.jpg" style="height: 385px;">
+        <a class="position" href="minecraft://?addExternalServer=ANGKOR-SMP|angkorsmp.com:19132">|Angkor-Smp|</a>
+
+        </button>
+        <p>------------------------------</p>
+        <button class="img-btn" style=" left: 10px; right: 260px;">
+          
+        <img class="img" src="https://i.ibb.co/8gB6J0vc/logo.png" style="height: 545px;">
+        <a class="position" href="minecraft://?addExternalServer=MIKITA|MIKITAMC.ink:19213">|Mikita-MC|</a>
+
+        </button>
+        <p>------------------------------</p>
+        
+        <button class="img-btn" style=" left: 10px; right: 260px;">
+          
+        <img class="img" src="https://i.ibb.co/CpK8qX4w/1000341879-removebg-preview.png" style="height: 545px;">
+        <a class="position" href="minecraft://?addExternalServer=potatomc.lol:25565">|Potato-MC|</a>
+
+        </button>
+        <p>------------------------------</p>
+      </nav>
+  
+  <button class="img-animate" style=" left: 10px; right: 260px;">
+    
+  <img class="animate-img-style" src="https://i.ibb.co/NdVZ55Bt/20250611-184534.png" style="background: none; height: 550px;">
+  
+  </button>
+  
+  <div class="img-icon" style="text-align: center;" id="Channel">
+    <ul>
+      <button class="icon">
+    <a href="https://youtube.com/@rgmc-009?si=vfAgTxJ0GgYIASd1" class="icon"><i class="fab fa-youtube"></i></a>
+      </button>
+      <button class="icon">
+    <a href="https://tiktok.com/@angkormc999" class="icon"><i class="fa-brands fa-tiktok"></i></a>
+      </button>
+      <button class="icon">
+    <a href="https://xbox.com" class="icon"><i class="fa-brands fa-xbox"></i></a>
+      </button>
+    </ul>
+  </div>
+  
+  
+  <footer style="text-shadow: 5px 5px 0px black; font-family: 'Minecraft', sans-serif; font-size: 10px;">
+    ©2025 RG MC. MINECRAFT SERVER CAMBODIA.
+  </footer>
+
+</body>
+</html>
